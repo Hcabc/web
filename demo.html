@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body{
+			margin:0px;
+			padding:0px;
+		}
+		#head{
+			height:31px;
+			background-color:#f4f4f4;
+			font-size:12px;
+			text-align:center;
+		}
+		.wid{
+			width:1200px;
+			margin:0 auto;
+		}
+		#shoucang{
+			height:31px;
+			float:left;
+			position:relative;
+			left:2px;
+		}
+		#shoucang>p{
+			display:inline;
+			margin-right:10px;
+			line-height:31px;
+		}
+		#tupian1>img{
+			vertical-align:middle;
+		}
+		#denglu{
+			height:31px;
+			float:right;
+			position:relative;
+			right:0px;
+		}
+		#denglu>p{
+			display:inline;
+			line-height:31px;
+		}
+		#denglu>a{
+			color:#000;
+			text-decoration:none;
+		}
+		#saomiao{
+			margin-right:10px;
+		}
+		#huanying{
+			margin-right:6px;
+		}
+		#daohang{
+			height:195px;
+			border-bottom:3px solid #fd0304;
+		}
+		.wid>img{
+			margin-top:22px;
+			float:left;
+		}
+		#sousuokuang{
+			width:500px;
+			height:42px;
+			display:inline;
+			float:left;
+			background-color:#f83838;
+			margin-top:40px;
+			margin-left:200px;
+			margin-right:160px;
+		}
+		#kuang{
+			width:405px;
+			height:36px;
+			border:2px solid #f83838;
+			color:#bcbcbc;
+			font-size:14px;
+		}
+		#anniu1{
+			width:86px;
+			height:40px;
+			background-color:#f83838;
+			border:2px solid #f83838;
+			font-size:16px;
+			color:#fff;
+		}
+		#gouwuche{
+			width:150px;
+			height:40px;
+			margin-top:40px;
+			background-color:#f5f5f5;
+			background-image:url("image/img6.jpg");
+			background-repeat:no-repeat;
+			background-position:26px 10px;
+			display:inline;
+			float:right;
+			margin-left:160px;
+			position:relative;
+			bottom:80px;
+			right:20px;
+		}
+		#gouwuche>a{
+			font-size:14px;
+			display:inline;
+			line-height:40px;
+			text-decoration:none;
+		}
+		#che{
+			margin-left:49px;
+			color:#000;
+		}
+		#jianshu{
+			color:#f13a3a;
+		}
+		#zi1{
+			color:#000;
+		}
+		#daohang1{
+			width:1200px;
+			clear:both;
+			margin:0 auto;
+		}
+		.daohangkuai{
+			height:33px;
+			width:89px;
+			display:inline;
+			padding:8px 16px 8px 18px;
+			border-radius:10%/15%;
+			margin-right:48px;
+			margin-bottom:3px;
+			position:relative;
+			left:12px;
+		}
+		.daohangkuai>a{
+			color:#000;
+			text-decoration:none;
+			text-align:center;
+			font-size:16px;
+		}
+		#tebie>a{
+			color:#fff;
+		}
+		#tebie{
+			 background-color:#fd0304;
+		}
+		#neirong{
+			height:652px;
+			background-color:#fbfbfb;
+		}
+		#lujing{
+			height:65px;
+			line-height:65px;
+			font-size:14px;
+		}
+		#zuobian{
+			width:215px;
+			float:left;
+		}
+		#fenlei{
+			width:215px;
+			height:43px;
+			background-color:#fff;
+			background-image:url("image/img8.jpg");
+			background-repeat:no-repeat;
+			background-position:33px 7px;
+			text-align:center;
+			line-height:43px;
+			float:left;
+			font-size:16px;
+		}
+		#shipin{
+			width:215px;
+			height:512px;
+			margin-top:10px;
+			float:left;
+			background-color:#fff;
+		}
+		#shipin>p{
+			margin-left:75px;
+			margin-top:15px;
+			font-size:14px;
+		}
+		#shipin>p>a{
+			color:#000;
+			text-decoration:none;
+		}
+		#hong>a:visited{
+			color:#ff2c18;
+		}
+		#meishi{
+			width:973px;
+			height:565px;
+			background-color:#fff;
+			float:left;
+			margin-left:12px;
+		}
+		.meitu{
+			width:222px;
+			height:253px;
+			border:1px solid #dbdbdb;
+			float:left;
+			margin:16px 0px 0px 16px;
+			text-align:center;
+		}
+		.wenzi{
+			color:#a3a3a3;
+			font-size:16px;
+		}
+		.meitu>p{
+			position:relative;
+			bottom:34px;
+		}
+		.shuzi{
+			font-size:15px;
+			color:#333333;
+		}
+		#zi{
+			height:247px;
+			background-color:#2e2e2e;
+		}
+		#jieshi{
+			width:1200px;
+			height:167px;
+			margin:0 auto;
+			border-bottom:1px solid #454545;
+		}
+		.tui{
+			height:150px;
+			width:115px;
+			float:left;
+			margin-right:155px;
+		}
+		.tui>p{
+			color:#fff;
+			margin-left:12px;
+		}
+		#lei{
+			color:#fff;
+			height:150px;
+			width:115px;
+			float:left;
+		}
+		.bottom{
+			font-size:14px;
+			color:#a4a4a4;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<div id="head">
+		<div class="wid">
+			<div id="shoucang">
+				<p>我的收藏</p>
+				<p>E族之家手机版</p>
+				<p id="tupian1"><img src="image/img7.jpg"> 328203328</p>
+			</div> 
+			<div id="denglu">
+				<p id="saomiao">扫描加入</p>
+				<p id="huanying">欢迎来到E族之家,</p>
+				<a href="#">请登录</a>
+				<p>|</p>
+				<a href="#" >注册</a>
+			</div>
+		</div>
+	</div>
+	<div id="daohang">
+		<div class="wid">
+			<img src="image/img5.jpg">
+			<div id="sousuokuang">
+				<input id="kuang" type="text" name="sousuo" value="  请输入关键词！">
+				<input id="anniu1" type="button" name="anniu" value="搜索">
+			</div>
+			<div id="gouwuche">
+				<a href="#" id="che">购物车(</a>
+				<a href="#"id="jianshu">0</a>
+				<a href="#" id="zi1">)件</a>
+			</div>
+			<div id="daohang1">
+				<div class="daohangkuai">
+					<a href="#">首页</a>
+				</div>
+				<div class="daohangkuai">
+					<a href="#">E族生活</a>
+				</div>
+				<div class="daohangkuai">
+					<a href="#">E族服务</a>
+				</div>
+				<div id="tebie" class="daohangkuai">
+					<a href="#">E族爱心</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="neirong">
+		<div class="wid">
+			<div id="lujing">当前位置：E族爱心>食品</div>
+			<div id="zuobian">
+				<div id="fenlei">全部分类</div>
+				<div id="shipin">
+					<p id="hong"><a href="#">>食品</a></p>
+					<p><a href="#">>生活用品</a></p>
+				</div>
+			</div>
+			<div id="meishi">
+				<div class="meitu">
+					<img src="image/img3.jpg">
+					<p class="wenzi">精品辣椒100g</p>
+					<p class="shuzi">￥90.00</p>
+				</div>
+				<div class="meitu">
+					<img src="image/img1.jpg">
+					<p class="wenzi">特级百香果3斤</p>
+					<p class="shuzi">￥90.00</p>
+				</div>
+				<div class="meitu">
+					<img src="image/img4.jpg">
+					<p class="wenzi">万威啤酒500ml</p>
+					<p class="shuzi">￥90.00</p>
+				</div>
+				<div class="meitu">
+					<img src="image/img2.jpg">
+					<p class="wenzi">万威啤酒500ml</p>
+					<p class="shuzi">￥90.00</p>
+				</div>
+				<div class="meitu">
+					<img src="image/img3.jpg">
+					<p class="wenzi">精品辣椒100g</p>
+					<p class="shuzi">￥90.00</p>
+				</div>
+				<div class="meitu">
+					<img src="image/img1.jpg">
+					<p class="wenzi">特级百香果3斤</p>
+					<p class="shuzi">￥90.00</p>
+				</div>
+				<div class="meitu">
+					<img src="image/img4.jpg">
+					<p class="wenzi">万威啤酒500ml</p>
+					<p class="shuzi">￥90.00</p>
+				</div>
+				<div class="meitu">
+					<img src="image/img2.jpg">
+					<p class="wenzi">万威啤酒500ml</p>
+					<p class="shuzi">￥90.00</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="zi">
+		<div class="wid" id="jieshi">
+			<div class="tui">
+				<p>新手上路</p>
+				<p>售后流程</p>
+				<p>购物流程</p>
+				<p>订购方式</p>
+			</div>
+			<div class="tui">
+				<p>配送方式</p>
+				<p>货到付款区域</p>
+				<p>配送支付查询</p>
+				<p>支付方式说明</p>
+			</div>
+			<div class="tui">
+				<p>购物指南</p>
+				<p>常见问题</p>
+				<p>订购流程</p>
+				<p>注册新会员</p>
+			</div>
+			<div class="tui">
+				<p>售后服务</p>
+				<p>退换货原则</p>
+				<p>售后服务保障</p>
+				<p>换货流程</p>
+			</div>
+			<div id="lei">
+				<p>关于我们</p>
+				<p>网站故障报告</p>
+				<p>联系我们</p>
+				<p>投诉与建议</p>
+			</div>
+		</div>
+		<div class="wid">
+			<p class="bottom">E族生活 | 居家维修保养 | 住宿优惠信息 | 出行接送 | E族活动 | E族爱心 | 积分商城</p>
+			<p class="bottom">
+				©2017-2018 E族之家 版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号
+			</p>
+		</div>
+	</div>
+</body>
+</html>
